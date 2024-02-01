@@ -1,0 +1,19 @@
+/* index.html */
+
+*{
+
+}
+
+p{
+    background-color: #fc2f2f80;
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#NumberTwo{
+    color: blue;
+    font-size: 36px;
+}
+
+#NumberThree{
+    font-size: 24px;
+}
