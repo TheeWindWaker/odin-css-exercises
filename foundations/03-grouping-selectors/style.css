@@ -1,0 +1,18 @@
+/*Grouping-Selectors Style sheet*/
+
+.BlackWhite,
+.YellowBlack{
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, serif;
+    border-style: outset;
+    font-weight:500
+}
+
+.BlackWhite {
+    color: white;
+    background-color: black;
+}
+
+.YellowBlack{
+    background-color: yellow;
+}
