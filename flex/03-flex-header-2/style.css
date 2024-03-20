@@ -12,6 +12,25 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  /* made the header a flexbox. Added space between the edge and items, and separated the items using space-between */
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  
+  
+}
+
+/* made a group of the left items and made them a flexbox to display them as a row */
+.left-group {
+  display: flex;
+}
+
+/* made a group of the right items and made them a flexbox to display them as a row. Also added a gap between the items */
+.right-group {
+  display: flex;
+  /* margin-left: auto;  <- not needed as the space-between takes care of this in the header block*/
+  gap: 8px;
 }
 
 .profile-image {
@@ -35,14 +54,24 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  padding: 8px;
 }
 
 ul {
   list-style-type: none;
+  
+  /* made the ul a flex to display them as a row. removed the margin and padding to deal with the space from the bullets and added a gap between each listed item */
+  display: flex; 
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  gap: 8px;
+  
 }
