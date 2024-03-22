@@ -7,9 +7,33 @@ img {
   height: 100px;
 }
 
+/* centered the title using text-align instead of flexbox */
 .title {
+  text-align: center;
   font-size: 36px;
   font-weight: 900;
+  
+}
+/* created a flexbox to align all of the items to the center of the page
+and make a 52px gap between each flex item. Also added a 32 px margin to
+the top of the flexbox */
+.container {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  gap: 52px;
+}
+
+/* grouped the image and text in the html. Made each combo a flexbox
+in the column direction. Then applied a width to the box to match the
+word wrapping as shown in the preview README */
+.berry {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
 }
 
 /* do not edit this footer */
